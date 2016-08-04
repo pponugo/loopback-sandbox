@@ -1,0 +1,21 @@
+{
+    "name": "Customer",
+    "base": "PersistedModel",
+    "plural": "customers",
+    "idInjection": true,
+    "strict": "throw",
+    "properties": {
+        "name": {
+            "type": "Name"
+        },
+        "birthDate": {
+            "type": "date"
+        },
+        "emails": {
+            "type": ["EmailInfo"]
+        },
+        "customdata": {
+            "type": "any"
+        }
+    }
+}

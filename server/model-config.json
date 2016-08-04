@@ -13,6 +13,18 @@
       "./mixins"
     ]
   },
+  "Customer": {
+      "dataSource": "db",
+      "public": true
+  },
+  "Name": {
+      "dataSource": "transient",
+      "public": true
+  },
+  "EmailInfo": {
+      "dataSource": "transient",
+      "public": true
+  },
   "User": {
     "dataSource": "db"
   },

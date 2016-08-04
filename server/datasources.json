@@ -1,4 +1,8 @@
 {
+  "transient": {
+    "name": "transient",
+    "connector": "transient"
+  },
   "db": {
     "name": "db",
     "connector": "memory"

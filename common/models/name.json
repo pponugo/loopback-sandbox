@@ -1,0 +1,23 @@
+{
+    "name": "Name",
+    "base": "Model",
+    "idInjection": false,
+    "strict": "throw",
+    "properties": {
+        "suffix": {
+            "type": "string"
+        },
+        "firstName": {
+            "type": "string"
+        },
+        "middleName": {
+            "type": "string"
+        },
+        "lastName": {
+            "type": "string"
+        }
+    },
+    "hidden": [
+        "id"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "EmailInfo",
+  "base": "Model",
+  "idInjection": false,
+  "strict": "throw",
+  "properties": {
+    "address": {
+      "type": "string"
+    }
+  },
+  "hidden": [
+    "id"
+  ]
+}
